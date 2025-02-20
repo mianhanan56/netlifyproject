@@ -1,0 +1,130 @@
+.navbar-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  gap: 2rem;
+}
+
+.navbar-container .logo {
+  min-width: 176px;
+}
+
+.navbar-container .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-container .links {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-container .links .drop-down-grid {
+  position: absolute;
+  background-color: white;
+  z-index: 999;
+  width: 628px;
+  height: 424px;
+  top: 4rem;
+  left: -10rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+          box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  border: 1px #cecece;
+  border-radius: 8px;
+  margin-top: 0;
+  padding: 20px 20px 20px 32px;
+}
+
+.navbar-container .links .drop-down-grid h3 {
+  color: #a9a9a9 !important;
+  margin-top: 0;
+  padding-left: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.navbar-container .links .drop-down-grid li {
+  padding: 12px 0;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.navbar-container .links .drop-down-grid li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #6e6e6e;
+  font-weight: 700;
+}
+
+.navbar-container .links li {
+  color: #5a5a5a;
+  padding: 20px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+  gap: 3px;
+}
+
+.navbar-container .nav-btns {
+  color: #5a5a5a;
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-container .nav-btns .login-btn {
+  font-weight: 700;
+  padding: 12px 24px;
+  background-color: transparent;
+}
+
+.navbar-container .nav-btns .get-started-btn {
+  min-width: 120px;
+  text-align: center;
+  font-weight: 700;
+  padding: 12px 0px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #3b47c2;
+  font-size: 16px;
+  border-radius: 5px;
+  max-height: 46px;
+}
+/*# sourceMappingURL=navbar.css.map */

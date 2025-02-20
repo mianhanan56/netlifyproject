@@ -1,0 +1,55 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+/* @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: Archivo; */
+}
+
+.box-shadow-scss {
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow:
+  0 2px 7px #0b141a17, 0 1px 2px #0b141a0d;
+}
+
+.animate-bounce {
+  animation: bounce 5s infinite !important;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+      transform: translateY(-8%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}

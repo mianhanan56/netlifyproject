@@ -1,0 +1,57 @@
+@import "./Variables.scss";
+@import "./navbar.scss";
+@import "./main.scss";
+@import './Component.scss';
+
+body{
+  font-family: $font-family !important;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: $black;
+}
+
+h6{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  color: $black;
+}
+
+p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: $text-primary;
+}
+
+.purple-btn{
+  a,button{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: $purple;
+    border: 2px solid $purple;
+    color: $white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out all;
+    img , svg{
+      width: 18px;
+      height: 18px;
+    }
+    &:hover{
+        background-color: $white;
+        color: $purple;
+    }
+  }
+}
+
+

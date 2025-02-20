@@ -1,0 +1,66 @@
+.main-accordion{
+    // background: linear-gradient(138.22deg, #ebf5ff .71%, #fff 76.41%);
+    background-color: #f5f8fe;
+    padding: 100px 0px;
+    margin: 42px 0px;
+    .faq-section{
+        text-align: center;
+        h2{
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 48px;
+            color: rgb(17, 24, 39);
+        }
+    }
+    .faq-accordion-wrapper{
+        .accordion{
+            margin: auto;
+            width: 85%;
+            .accordion-item{
+                margin-top: 30px;
+                border: none;
+                border-radius: 8px;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                &.active{
+                    border: 1px solid #21367f !important;
+                    border-radius: 8px;
+                }
+                .accordion-header{
+                    .accordion-button{
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 38px;
+                        color: rgb(17, 24, 39);
+                        background-color: transparent;
+                        box-shadow: none !important;
+                        border: none !important;
+                        padding: 24px 16px;
+                        &::after{
+                            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                            background-position: center;
+                            background-color: #ffffff;
+                            border-radius: 50%;
+                            padding: 16px;
+                        }
+                        // &:not(.collapsed)::after {
+                        //     background-position: center;
+                        //     background-color: #4f46e5;
+                        //     border-radius: 50%;
+                        //     padding: 16px;
+                        // }
+                    }
+                }
+                .accordion-collapse{
+                    .accordion-body{
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 22px;
+                            color: rgb(107, 114, 128);
+                            margin: 0px;
+                            padding: 0px 24px 24px;
+                    }
+                }
+            }
+        }
+    }
+}
